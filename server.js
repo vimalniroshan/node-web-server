@@ -34,7 +34,7 @@ app.get('/', (req, res) => {
   res.render('home.hbs', {
     pageTitle: 'Home Page',
     currentYear: new Date().getFullYear(),
-    message: 'Welcome to my website!'
+    message: 'Welcome to Vimal\'s website!'
   });
 });
 
